@@ -1,0 +1,11 @@
+class Software{  
+ float salary=670000;  
+}  
+class Programmer extends Software{  
+ int bonus=13000;  
+ public static void main(String args[]){  
+   Programmer p=new Programmer();  
+   System.out.println("Programmer salary is:"+p.salary);  
+   System.out.println("Bonus of Programmer is:"+p.bonus);  
+}  
+} 
